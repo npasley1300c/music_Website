@@ -1,0 +1,68 @@
+/* 
+    Document   : artwork_parallax.css
+    Created on : Nov 26, 2013, 12:15:07 PM
+    Author     : ncp1300
+    Description: Style sheet for artwork page
+        
+*/
+
+root { 
+    display: block;
+}
+body{
+         font:14pt New Times Roman;
+         color:black;
+         background:url(free_texture_friday_725.jpg);
+         background-attachment:fixed;
+         margin-left:10pt;
+         margin-right:10pt;
+         
+       }
+       h1 {
+         font:30pt Arial, sans-serif;
+         font-style:italic;
+         font-weight:bold; 
+         color:orange;
+         text-align: left;
+       }
+       hr {
+         color:blue
+       }
+       div.footnote {
+          font-size:12pt;
+          line-height:12pt;
+          text-align:center;
+          color:orange;}
+       a {
+         font:16pt Arial, sans-serif;
+         color :orange;  
+         text-align:right;
+        }
+        .blue{
+           color:blue
+       }
+        #container {   
+	  background: url(../css/Feeling_Grizzly.png) 
+                       10% 0 repeat; 
+	   height: 1700px;  
+	   margin: 0 auto; 
+           width: 100%; 
+           max-width: 1920px; 
+           position: relative; 
+           box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+         
+        
+        
+#container section { background: url("../images/Picture 019.jpg") no-repeat scroll center top transparent; height: 1180px; position: absolute; text-indent: -9999px; top: 30px; width: 100%; }
+
+#container article { background: url("../images/Picture 001.jpg") no-repeat scroll center top transparent; height: 1960px; position: absolute; text-indent: -9999px; top: 650px; width: 100%; }
+
+#container div { background: url("../images/big Mac vs PC.jpg") no-repeat scroll center top transparent; height:1636px;  position: absolute; text-indent: -9999px; top:950px; width: 100%; }
+
+#container p { background: url("../images/sketchbook_all.png") no-repeat  scroll center top transparent; height:480px; position: absolute; text-indent: -9999px; top:100px; width: 100%; }
+/*
+#container a { background: url("../images/lips.png") no-repeat  scroll center top transparent; height:600px; position: absolute; text-indent: -9999px; top:1300px; width: 100%; }
+*/
+        

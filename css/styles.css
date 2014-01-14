@@ -1,0 +1,49 @@
+body {
+    background-color: white;
+  margin: 0;
+}
+
+img {
+  display: block;
+  text-align: center;
+  top:600px;
+  width: 100%;
+  
+}
+image{
+    display:block;
+    top:800px;
+    position:absolute;
+    
+    
+}
+
+.scene {
+  max-width: 600px;
+  max-height: 500px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.layer:nth-child(1) {/*ear*/
+  opacity: 0.95;
+}
+.layer:nth-child(2) {/*ear*/
+  opacity: 0.95;
+}
+.layer:nth-child(3) {/*mouth*/
+  opacity: .90;
+}
+.layer:nth-child(4) {/*st*/
+  opacity: 0.2;
+}
+.layer:nth-child(5) {/*be*/
+  opacity: 0.75;
+}
+.layer:nth-child(6) {/*ats*/
+  opacity: 0.67;
+}
+.layer:nth-child(7){/*bea*/
+    opacity: 0.95;
+}
+

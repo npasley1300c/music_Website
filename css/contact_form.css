@@ -1,0 +1,23 @@
+/* 
+    Document   : contact_form
+    Created on : Dec 18, 2013, 9:48:00 AM
+    Author     : ncp1300
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body{
+    
+    color: #ccc
+}
+h1{
+    
+    font: 40pt Calbri;
+    font-style: italic;
+    color:#0099ff
+    
+}
+

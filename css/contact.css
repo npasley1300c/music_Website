@@ -1,0 +1,90 @@
+/* 
+    Document   : contact
+    Created on : Dec 8, 2013, 6:02:04 PM
+    Author     : ncp1300
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body{
+         font:22pt cursive;
+         color:white;
+         background:url(../images/free_texture_friday_725.jpg);
+         background-position: 50%;
+         background-attachment:fixed;
+         text-align:center;
+        
+       }
+       h1 {
+         font:30pt Arial, sans-serif;
+         font-style:italic;
+         font-weight:bold; 
+         color:orange;
+         text-align: left;
+       }
+       h3{
+           font:48pt cursive;
+           font-weight:bold;
+           color:lightskyblue;
+           text-align:center;
+       }
+       hr {
+         color:blue
+       }
+       div.footnote {
+          font-size:12pt;
+          
+          line-height:12pt;
+          text-align:center;
+          color:orange;}
+       a {
+         
+         text-align:left;
+         
+      
+        }
+       p {
+          font:24pt courier new;
+          font-weight:bolder;
+         
+        }
+       li {
+            color:skyblue;
+        }
+       .blue{
+           color:blue
+       }
+       
+       #container {   
+	   background: url(../images/free_texture_friday_725.jpg) 
+                       50% 0 repeat; 
+	   height: 2400px;  
+	   margin: 0 auto; 
+           width: 100%; 
+           max-width: 1420px; 
+           position: relative; 
+           box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+       #containerTwo{
+           background: url(lightningStrike.jpg) 50% 0 no-repeat;
+           height: 1050px;
+           box-shadow: 0 0 50px rgba(0,0,0,0.8);
+           
+    
+}
+
+#container article{ background:url(contactOne.png) no-repeat  scroll center top transparent; height:1000px; position: absolute; text-indent: -9999px; top:100px; width: 100%;}
+
+#container section{ background:url(contactTwo.png) no-repeat  scroll center top transparent; height:1000px; position: absolute; text-indent: -9999px; top:70px; width: 100%;}
+
+#container p{ background:url(contactThree.png) no-repeat  scroll center top transparent; height:1000px; position: absolute; text-indent: -9999px; top:120px; width: 100%;}
+
+#container div{ background:url(contactFour.png) no-repeat scroll right top transparent; height:2000px;position: absolute; text-indent: -9999px; top:150px; width: 100%;}
+
+#container a{ background:url( ) no-repeat scroll top transparent; height:600px; position: absolute; text-indent: -999px; top:100px; width: 100%; float:left;}
+

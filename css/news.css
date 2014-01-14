@@ -1,0 +1,57 @@
+/* 
+    Document   : news.css
+    Created on : Dec 13, 2013, 5:25:29 PM
+    Author     : Nieamiah Pasley
+    Description:
+        Purpose of the stylesheet follows.
+*/
+ body{
+         font:14pt New Times Roman;
+         
+         background:url(images/free_texture_friday_725.jpg);
+         color:yellow;
+         background-position:50%;
+         background-attachment:fixed;
+         font:25pt fantasy;
+         background-repeat:repeat;
+         margin-left:10pt;
+         margin-right:10pt;
+       }
+       h1 {
+         font:30pt Arial, sans-serif;
+         font-style:italic;
+         font-weight:bold; 
+         color:orange;
+       }
+       hr {
+         color:blue
+       }
+       div.footnote {
+          font-size:12pt;
+          line-height:12pt;
+          text-align:center;
+          color:orange;}
+       
+        .blue{
+           color:blue
+       }
+       #headings{
+           font-size: 30pt;
+           font:menu;
+           color:yellow;    
+       }
+root { 
+    display: block;
+}
+li{
+    font:  25pt sans-serif;
+    
+}
+#hiphop{
+    
+    font-size: 25pt;
+}
+a{
+    color:#0099ff
+}
+

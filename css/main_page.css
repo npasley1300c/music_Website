@@ -1,0 +1,68 @@
+/* 
+    Document   : main_page
+    Created on : Dec 5, 2013, 7:14:13 AM
+    Author     : ncp1300
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body{
+         font:14pt New Times Roman;
+         background: url(images/free_texture_friday_725.jpg);
+         
+         background-position: 50%;
+         position:absolute;
+         margin-left:10pt;
+         margin-right:10pt;
+       }
+       h1 {
+         font:30pt Arial, sans-serif;
+         font-style:italic;
+         font-weight:bold; 
+         color:orange;
+       }
+       hr {
+         color:blue
+       }
+       div.footnote {
+          font-size:12pt;
+          line-height:12pt;
+          text-align:center;
+          color:orange;}
+       a {
+         font:16pt Arial, sans-serif;
+         color :orange; 
+         text-align:center;
+         }
+       img {
+         text-align: center;  
+         }
+       #bear{
+          /*icon:url(npa$leybeats_hover.jpg); */   
+         }
+       .blue{
+           color:blue
+       }
+       #contact{
+           display: inline;
+           float:right;
+           background-attachment: fixed;
+           
+       }
+       #headings{
+           
+       }
+       #cboxdiv{
+           margin-left: 5pt;
+           
+       }
+       #content{
+           display: inline;
+       }
+     
+
+     

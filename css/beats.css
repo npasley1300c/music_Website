@@ -1,0 +1,75 @@
+/* 
+    Document   : beats
+    Created on : Dec 9, 2013, 8:24:29 AM
+    Author     : ncp1300
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body{
+         font:14pt New Times Roman;
+         color:white;
+         background:url(VP_Woofer_Round.png);
+         background-position: 50%;
+         background-attachment:fixed;
+         background-repeat:repeat;
+         margin-left:10pt;
+         margin-right:10pt;
+       }
+       h3 {
+         font:30pt Arial, sans-serif;
+         font-style:italic;
+         font-weight:bold; 
+         color:#0000cc
+       }
+      
+       hr.blueLine {
+         color:blue;
+       }
+       div.footnote {
+          font-size:12pt;
+          line-height:12pt;
+          text-align:center;
+          color:blue;}
+       
+       a {
+         font:16pt Arial, sans-serif;
+         color :orange;  
+         text-align:center;
+         position:relative;
+         
+        
+         
+        }
+          
+    ul {list-style-type: none;
+        text-align:left;
+        padding-left:0px;
+        padding-bottom: 0px;
+        float:left;
+        
+    }
+    img {padding-right: 10px; 
+         padding-left:0px;
+         cursor:pointer
+         }
+
+    #inventory {
+        width:1330px;
+        
+    }
+   
+    #logo{
+        text-align: center;
+    }
+    form{
+        display:inline-block;
+        text-align:right
+    }
+    cart{
+        text-align: right;
+        float:right;
+    }
